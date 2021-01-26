@@ -1,0 +1,31 @@
+.mainnav-container{
+    width: 100%;
+    height: 60px;
+    background-color: $cyan;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .mainnav-brand{
+        flex: 1;
+        padding-left: 20px;
+    }
+    ul{
+        flex: 12;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        li{
+            color:$white;
+            padding-left: 8px;
+            font-family: valorant;
+            a{
+                text-decoration: none;
+                &:hover{
+                    color: $contrast;
+                }
+            }
+        }
+    }
+}

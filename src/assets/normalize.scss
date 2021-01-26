@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: $white;
+}
+
+body{
+    background-color: $bg!important;
+}
+
+h1{
+    font-family: valorant;
+}
+
+h2{
+    font-family: avenir;
+}
+
+h6{
+    font-family: avenir;
+    font-size: 16px;
+}
