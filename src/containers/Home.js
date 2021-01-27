@@ -1,4 +1,4 @@
-import {Container, Row, Col} from 'react-bootstrap';
+import MainNav from '../components/mainNav';
 import Jumbotron from '../components/jumbotron';
 function Home() {
   return (

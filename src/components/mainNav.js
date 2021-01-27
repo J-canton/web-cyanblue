@@ -1,15 +1,18 @@
+import {Link } from "react-router-dom";
 import Brand from '../assets/img/brand.png';
 
 function MainNav() {
   return (
     <div className="mainnav-container">
       <div className="mainnav-brand">
-        <img src={Brand}/>      
+          <Link to="/">
+            <img src={Brand} alt=""/>
+          </Link>     
       </div>
       <ul>
-        <li><a>About</a></li>
-        <li><a>Portfolio</a></li>
-        <li><a>Contact</a></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/portfolio">Portfolio</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
     </div>
   );

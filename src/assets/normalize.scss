@@ -23,3 +23,44 @@ h6{
     font-family: avenir;
     font-size: 16px;
 }
+
+input,textarea{
+    height: 24px;
+    background-color: $input;
+    border: 0;
+    padding-left: 10px;
+    ::placeholder{
+        color: $white;  
+    }
+    :active{
+        border: 0;
+    }
+}
+input{
+    height: auto;
+    max-height: 24px;
+    border-radius: 3px;
+    background-color: #302c3f;
+    padding: .75rem 1.25rem;
+    font-family: avenir;
+    font-size: 1rem;
+    color:#cac2df;
+    border:0;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+textarea{
+    height: auto;
+    min-height: 80px;
+    max-height: 350px;
+    border-radius: 3px;
+    background-color: #302c3f;
+    padding: .75rem 1.25rem;
+    font-family: avenir;
+    font-size: 1rem;
+    color:#cac2df;
+    border:0;
+    font-weight: 400;
+    line-height: 1.5;
+}
