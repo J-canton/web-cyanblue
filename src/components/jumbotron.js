@@ -1,12 +1,18 @@
-function JumbotronComponent() {
-  return (
-    <div className="jumbotron-container">
-        <div className="jumbotron-text">
-            <h1>CYAN BLUE !</h1>
-            <h2>"Have beginning wherein spirit. Bearing unto. To after light. Good image can't without hath fly beast him fish firmament fish Face waters fly unto spirit i doesn't one waters divide."</h2>
-        </div>
-    </div>
-  );
+import React from 'react';
+class JumbotronComponent extends React.Component {
+  constructor(props){
+    super(props);
+  }
+  render(){
+    return (
+      <div className="jumbotron-container">
+          <div className="jumbotron-text">
+              <h1>{this.props.title}</h1>
+              <h2>{this.props.text}</h2>
+          </div>
+      </div>
+    );
+  }
 }
 
 export default JumbotronComponent;

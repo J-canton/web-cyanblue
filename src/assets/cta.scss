@@ -1,0 +1,53 @@
+.cta-container{
+    width: 100vw;
+    height: 25vh;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h2{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    p{
+        color: $white;
+    }
+
+    .cta-contact{
+        flex-direction: row;
+        display: flex;
+        .cta-content{
+            flex:1;
+            background-color: $bg;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 10px;
+            a{
+                text-decoration: none;
+                align-items: center;
+                justify-self: center;
+                display: flex;
+                flex-direction: column;
+                img{
+                    height: 50px;
+                    width: 50px;
+                    margin-bottom: 10px;
+                }
+            
+                .cta-content-text{
+                    text-align: center;
+                    font-size: .50rem;
+                }
+            }
+        }
+    }
+}
+
+.ctaAbout{
+
+}
+
