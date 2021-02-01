@@ -38,22 +38,27 @@ input,textarea{
 }
 input{
     height: auto;
+    width: 270px;
     max-height: 24px;
     border-radius: 3px;
     background-color: #302c3f;
-    padding: .75rem 1.25rem;
     font-family: avenir;
     font-size: 1rem;
     color:#cac2df;
     border:0;
     font-weight: 400;
     line-height: 1.5;
+    padding: .75rem 1.25rem;
+    @media(min-width:350px) and (max-width:720px){
+        width:240px;
+    }
 }
 
 textarea{
     height: auto;
     min-height: 80px;
     max-height: 350px;
+    width: 600px;
     border-radius: 3px;
     background-color: #302c3f;
     padding: .75rem 1.25rem;
@@ -63,4 +68,12 @@ textarea{
     border:0;
     font-weight: 400;
     line-height: 1.5;
+    resize: none;
+    @media(min-width:350px) and (max-width:720px){
+        width:300px;
+    }
+}
+
+.full-input{
+    width:600px;
 }
