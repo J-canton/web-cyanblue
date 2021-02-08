@@ -1,6 +1,8 @@
 .form-container{
-    position: relative;
     width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
     h2{
         width: 100%;

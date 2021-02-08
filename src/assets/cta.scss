@@ -14,19 +14,18 @@
     p{
         color: $white;
     }
-
     .cta-contact{
         flex-direction: row;
         display: flex;
         .cta-content{
             flex:1;
             background-color: $bg;
-            width: 100px;
+            width: 20vwr;
             height: 100px;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 0 10px;
+            margin: 0 2vw;
             a{
                 text-decoration: none;
                 align-items: center;
@@ -38,7 +37,6 @@
                     width: 50px;
                     margin-bottom: 10px;
                 }
-            
                 .cta-content-text{
                     text-align: center;
                     font-size: .50rem;

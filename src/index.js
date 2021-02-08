@@ -18,7 +18,6 @@ ReactDOM.render(
       <Route path="/contact" exact component={Contact} />
       <Route path="/about" exact component={About} />
       <Route path="/portfolio" exact component={Portfolio} />
-      <Footer/>
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
