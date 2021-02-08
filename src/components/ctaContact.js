@@ -2,34 +2,31 @@ import React from 'react';
 import {Link } from "react-router-dom";
 
 class CtaContact extends React.Component {
-    constructor(props){
-        super(props);   
-    }
     render(){
         return (
             <div className="cta-container">
                 <div className="cta-contact">
                     <div className="cta-content">
-                        <Link>
-                            <img/>
+                        <Link to="#">
+                            <img alt=""/>
                             <h3 className="cta-content-text">SUBSCRIBE MISMO</h3>
                         </Link>
                     </div>
                     <div className="cta-content">
-                        <Link>
-                            <img/>
+                        <Link to="#">
+                            <img alt=""/>
                             <h3 className="cta-content-text">SUBSCRIBE MISMO</h3>
                         </Link>
                     </div>
                     <div className="cta-content">
-                        <Link>
-                            <img/>
+                        <Link to="#">
+                            <img alt=""/>
                             <h3 className="cta-content-text">SUBSCRIBE MISMO</h3>
                         </Link>
                     </div>
                     <div className="cta-content">
-                        <Link>
-                            <img/>
+                        <Link to="#">
+                            <img alt=""/>
                             <h3 className="cta-content-text">SUBSCRIBE MISMO</h3>
                         </Link>
                     </div>

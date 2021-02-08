@@ -6,7 +6,8 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 30px;
+    flex-shrink: 0;
+    background-color: aqua;
     .jumbotron-text{
         padding-left: 10vw;
         h1{
@@ -33,7 +34,8 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 30px;
+    flex-shrink: 0;
+    background-color: aqua;
     .half-jumbotron-text{
         padding-left: 10vw;
         h1{

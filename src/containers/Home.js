@@ -1,4 +1,3 @@
-import MainNav from '../components/mainNav';
 import Jumbotron from '../components/jumbotron';
 import CtaText from '../components/ctaText';
 function Home() {
