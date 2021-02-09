@@ -6,9 +6,7 @@ import Home from './containers/Home';
 import Contact from './containers/Contact';
 import About from './containers/About';
 import Portfolio from './containers/Portfolio'
-import Footer from './components/footer';
 import MainNav from './components/mainNav';
-
 
 ReactDOM.render(
   <React.StrictMode>

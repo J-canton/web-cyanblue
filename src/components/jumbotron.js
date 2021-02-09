@@ -1,8 +1,5 @@
 import React from 'react';
 class JumbotronComponent extends React.Component {
-  constructor(props){
-    super(props);
-  }
   render(){
     return (
       <div className="jumbotron-container">

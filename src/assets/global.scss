@@ -17,8 +17,40 @@
     a{
         text-decoration: none;
     }
+}
 
-    #root{
-        position: relative;
+#root{
+    position: relative;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    display: table;
+    border-spacing: 2px;
+    border-color: grey;
+    tbody{
+        display: table-row-group;
+        vertical-align: middle;
+        border-color: inherit;
+        tr{
+            display: table-row;
+            vertical-align: inherit;
+            border-color: inherit;
+            td{
+                flex: 1;
+                border-bottom: 2px solid #3a3747;
+                padding: 16px 25px 17px;
+                border-top: 0;
+                &:first-child{
+                    width: 200px;
+                    min-width: 200px;
+                    @media(min-width:350px) and (max-width:720px){
+                        width: 100px;
+                        min-width: 100px;
+                    }
+                }
+            }
+        }
     }
 }
