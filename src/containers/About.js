@@ -1,12 +1,15 @@
 import HalfJumbotron from '../components/halfJumbotron';
 import Footer from '../components/footer';
+import CtaContact from '../components/ctaContact';
 import {Line} from 'rc-progress';
+import jumbotronImg from '../assets/img/jumbotron.png';
+
 function About() {
     return (
     <div className="big-container">
         <HalfJumbotron
             title='ABOUT ME'
-            text="Have beginning wherein spirit. Bearing unto. To after light. Good image can't without hath fly beast him fish firmament fish Face waters fly unto spirit i doesn't one waters divide."
+            img={jumbotronImg}
         />
         <div className="about-title">
             <h2>JUAN LUIS CANTÓN</h2>
@@ -133,6 +136,7 @@ function About() {
                 </table>
             </div>
         </div>
+        <CtaContact/>
         <Footer/>
     </div>
     );

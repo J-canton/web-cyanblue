@@ -6,6 +6,8 @@ import Home from './containers/Home';
 import Contact from './containers/Contact';
 import About from './containers/About';
 import Portfolio from './containers/Portfolio'
+import News from './containers/News';
+import New from './containers/New';
 import MainNav from './components/mainNav';
 
 ReactDOM.render(
@@ -16,6 +18,8 @@ ReactDOM.render(
       <Route path="/contact" exact component={Contact} />
       <Route path="/about" exact component={About} />
       <Route path="/portfolio" exact component={Portfolio} />
+      <Route path="/news" exact component={News} />
+      <Route path="/news/new" exact component={New} />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,25 +1,45 @@
 .mainnav-container{
     width: 100vw;
-    height: 40px;
-    background-color: $cyan;
+    height: 80px;
+    background-color: $bg;
     position: fixed;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     z-index: 100;
+    box-sizing: border-box;
     .mainnav-brand{
         flex: 1;
         padding-left: 20px;
+        a{
+            img{
+                border: 2px solid $contrast;
+                &:hover{
+                    border: 2px solid $white;
+                }
+            }
+        }
     }
     ul{
         flex: 12;
         display: flex;
         flex-direction: row;
         list-style: none;
+        align-items: center;
+        height: 80px;
         li{
-            padding-left: 8px;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
             font-family: valorant;
+            height: 80px;
+            &:hover{
+                border-bottom: 2px solid $contrast;
+                a{
+                    color: $contrast;
+                }
+            }
             a{
                 color:$white;
                 text-decoration: none;
@@ -27,6 +47,9 @@
                     color: $contrast;
                 }
             }
+        }
+        .active{
+            
         }
     }
 }

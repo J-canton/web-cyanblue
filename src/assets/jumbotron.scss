@@ -1,13 +1,34 @@
 .jumbotron-container{
     width: 100vw;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
     flex-shrink: 0;
-    background-color: aqua;
+    overflow-x: hidden;
+    perspective: 2px;
+    position: relative;
+    display: flex;
+    background-color: $bg;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    .jumbotron-veil{
+        background-color: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+      }
     .jumbotron-text{
         padding-left: 10vw;
+        width: 100vw;
+        z-index: 1;
+        display: flex;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
         h1{
             color: $white;
             font-family: valorant;
@@ -31,9 +52,30 @@
     align-items: center;
     justify-content: flex-start;
     flex-shrink: 0;
-    background-color: aqua;
+    overflow-x: hidden;
+    perspective: 2px;
+    position: relative;
+    background-color: $bg;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-y: hidden;
+    .jumbotron-veil{
+        background-color: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+      }
     .half-jumbotron-text{
         padding-left: 10vw;
+        width: 100vw;
+        z-index: 1;
+        display: flex;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
         h1{
             color: $white;
             font-family: valorant;
