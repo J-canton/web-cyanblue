@@ -1,13 +1,13 @@
 .cta-container{
     width: 100vw;
-    height: 25vh;
-    background-color: darkblue;
+    height: 16vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     position: relative;
-    h2{
+    border-top: 2px solid $cyan;
+    h2,h3{
         text-align: center;
         padding-bottom: 20px;
     }
@@ -21,7 +21,7 @@
             flex:1;
             background-color: $bg;
             width: 20vwr;
-            height: 100px;
+            height: auto;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -35,11 +35,6 @@
                 img{
                     height: 50px;
                     width: 50px;
-                    margin-bottom: 10px;
-                }
-                .cta-content-text{
-                    text-align: center;
-                    font-size: .50rem;
                 }
             }
         }

@@ -80,3 +80,12 @@ textarea{
         width:300px;
     }
 }
+
+a{
+    text-decoration: none;
+    &:hover{
+        span{
+            color: $contrast;
+        }
+    }
+}
